@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto&family=Signika+Negative:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color : #03B299;
+
+}
+
+.main {
+    height: 100vh;
+}
+#nav-row {
+    height: 8%;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    border-bottom: 1px solid black;
+    
+}
+.nav-left, .nav-right {
+    height: 100%;
+}
+#contant-row {
+    height: 90%;
+}
+.right {
+    background-image: url('https://bikin.website/blog/wp-content/uploads/2021/02/Jenis-Web-Developer.jpg');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#nav-row h3 {
+    font-family: 'Signika Negative';
+}
+#nav-row  span {
+    color: var(--primary-color);
+}
+.center {
+    height: 80%;
+    width: 100%;
+    place-items: center;
+}
+.center p {
+    font-family: roboto;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.center h2 {
+    font-family: roboto;
+    text-transform: capitalize;
+}
+.center h2 span {
+    color: var(--primary-color);
+}
+.btn-1 {
+    background-color: var(--primary-color);
+    padding: 2vh 4vh;
+}
+/********************************************** main stylings complite  *************************************/
+
+
+
+
+
+
+
+@media (max-width : 480px) {
+    .main {
+        height: 120vh;
+    }
+    .left, .right {
+        height: 50%;
+    }
+    .right {
+        background-image: url('https://bikin.website/blog/wp-content/uploads/2021/02/Jenis-Web-Developer.jpg');
+        background-size: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+   .center {
+    height: 100%;
+    width: 100%;
+   }
+   /**************************************** main styling complite  ***************************************/
+}
+
+@media screen and (min-width:480px) and (max-width:1024px) {
+    .main {
+       height: 130vh;
+    }
+    .left , .right {
+        height: 50%;
+    }
+    .right {
+        background-image: url('https://bikin.website/blog/wp-content/uploads/2021/02/Jenis-Web-Developer.jpg');
+        background-size: 60%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    /*************************************** main styling complite  *******************************/
+}
